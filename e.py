@@ -3,6 +3,7 @@ from eth_account import Account
 from tqdm import tqdm
 import os
 
+Account.enable_unaudited_hdwallet_features()
 # Set your target Ethereum address (lowercase for match)
 target_address = "0x9becc0320f317e2137bb3616c064b78b68d99919"
 
